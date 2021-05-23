@@ -15,7 +15,7 @@ This section focuses on introducing you to the TryHackMe platform, and to the cy
 
   1. Tutorial 
   2. Starting Out in Cyber Sec
-  3. Introductory Researching
+  3. [Introductory Researching](beginner/introductory_research.md)
 
 ## Linux Fundamentals
 Many servers and security tools use Linux. Learn how to use the Linux operating system, a critical skill in cyber security.
