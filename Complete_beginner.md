@@ -68,7 +68,7 @@ Once you have initial access on a machine, learn how to escalate your account pr
 ## Basic Computer Exploitation
 Strengthen your skills by exploiting a range of different applications and services, from networking to web to privilege escalation.
 
-  28. Vulnversity
+  28. [Vulnversity](beginner/Vulnversity.md)
   29. Basic Pentesting
   30. Kenobi
   31. Steel Mountain
