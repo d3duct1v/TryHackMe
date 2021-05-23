@@ -14,7 +14,7 @@ Once you complete the beginner path, you should have learnt the fundamental know
 This section focuses on introducing you to the TryHackMe platform, and to the cyber security industry. Once you understand the virtual room concept on TryHackMe, you'll start exploring the different careers in cyber security to get a better feel of what you may like to do. After which, you'll learn how to effectively research for complex answer - cyber security is a very broad field and understand how to find relevant information will be extremely useful to you.
 
   1. [Tutorial](beginner/Tutorial.md)
-  2. Starting Out in Cyber Sec
+  2. [Starting Out in Cyber Sec](beginner/Starting_out.md)
   3. [Introductory Researching](beginner/introductory_research.md)
 
 ## Linux Fundamentals
