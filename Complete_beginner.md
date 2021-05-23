@@ -55,7 +55,7 @@ Hacking Windows is often daunting. Grasp the fundamentals of core Windows concep
 
   21. Intro to Windows
   22. Active Directory Basics
-  23. Metasploit
+  23. [Metasploit](beginner/metasploit.md)
   24. Blue
 
 ## Shells and Privilege Escalation
