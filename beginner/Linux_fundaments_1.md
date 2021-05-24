@@ -107,7 +107,9 @@ Now that you've learned basic file operations, you can solve the first challenge
 Once you're done run the binary and you'll be given the password for the user shiba2!
 Note: the name of the binary is shiba1, as shown in the title
 ___
-![Task 8 command prompt](/images/Linux-fundamentals-1-task_8.png)
+  
+<img src="/beginner/images/Linix-fundamentals-1-task_8.png" height="50%" width="50%"/>
+
 What's the password for shiba2
 > pinguftw
 
