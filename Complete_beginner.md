@@ -21,7 +21,7 @@ This section focuses on introducing you to the TryHackMe platform, and to the cy
 Many servers and security tools use Linux. Learn how to use the Linux operating system, a critical skill in cyber security.
 
   4. [Linux Fundamentals Part 1](beginner/Linux_fundaments_1.md)
-  5. Linux Fundamentals Part 2
+  5. [Linux Fundamentals Part 2](beginner/Linux_fundaments_2.md)
   6. Linux Fundamentals Part 3
  
 ## Networking Fundamentals
