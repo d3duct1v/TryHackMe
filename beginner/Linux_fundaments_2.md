@@ -96,7 +96,7 @@ How would you set nootnoot equal to 1111
 What is the value of the home enviornment variable
 > /home/shiba2
 
-<img src="/beginner/images/Linux-fundamental-2-task_6.png" height="60%" width="60%"/>
+<img src="/beginner/images/Linux-fundamental-2-task_6.png" height="50%" width="50%"/>
 
 ## Task 7: \[Section 4: Linux Operators\]: "|"
 Continuing with the trend of very special operators, we have the pipe. The pipe is unique because while operators like >> allow you to store the output of a command, the | operator allows you to take the output of a command and use it as input for a second command.
@@ -137,7 +137,8 @@ This challenge is pretty simple. The binary is checking to see if the environmen
 ___
 What is shiba3's password?
 > happynootnoises
-<img src="/beginner/images/Linux-fundamental-2-task_11.png" height="60%" width="60%"/>
+
+<img src="/beginner/images/Linux-fundamental-2-task_11.png" height="50%" width="50%"/>
 
 ## Task 12: \[Section 5 - Advanced File Operations\]: Intro
 Much like windows, files have a lot of complexity to them. Multiple different parameters have to be modified to allow certain users to read to files, write to files, and execute certain files. This section will cover modifying these parameters.
