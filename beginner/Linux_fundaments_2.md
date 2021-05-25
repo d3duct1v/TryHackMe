@@ -96,6 +96,7 @@ How would you set nootnoot equal to 1111
 What is the value of the home enviornment variable
 > /home/shiba2
 
+
 <img src="/beginner/images/Linux-fundamental-2-task_6.png" height="50%" width="50%"/>
 
 ## Task 7: \[Section 4: Linux Operators\]: "|"
