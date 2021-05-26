@@ -22,7 +22,7 @@ Many servers and security tools use Linux. Learn how to use the Linux operating 
 
   4. [Linux Fundamentals Part 1](beginner/Linux_fundaments_1.md)
   5. [Linux Fundamentals Part 2](beginner/Linux_fundaments_2.md)
-  6. Linux Fundamentals Part 3
+  6. [Linux Fundamentals Part 3](beginner/Linux_fundaments_3.md)
  
 ## Networking Fundamentals
 Understand, enumerate and attack various networking services in real-world environments.
