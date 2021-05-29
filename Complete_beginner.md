@@ -28,7 +28,7 @@ Many servers and security tools use Linux. Learn how to use the Linux operating 
 Understand, enumerate and attack various networking services in real-world environments.
 
   7. [Introductory Networking](beginner/Introductory_Networking.md)
-  8. Nmap
+  8. [Nmap](beginner/Nmap.md)
   9. Network Services
   10. Network Services 2
 
