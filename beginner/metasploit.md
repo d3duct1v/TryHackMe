@@ -1,18 +1,13 @@
 # Metasploit
 ## Task 1: Intro
 
-Metasploit, an open-source pentesting framework, is a powerful tool utilized by security engineers around the world. Maintained by Rapid 7, Metasploit is a collection of not only thoroughly tested exploits but also auxiliary and post-exploitation tools. Throughout this room, we will explore the basics of using this massive framework and a few of the modules it includes. 
-
-The virtual machine used in this room (Ice), a worksheet version of this room, and the subsequent answer key can be downloaded for offline usage from https://darkstar7471.com/resources.html
-___
 Kali and most other security distributions of Linux include Metasploit by default. If you are using a different distribution of Linux, verify that you have it installed or install it from the Rapid 7 Github repository. 
 
 > No Answer Needed
 
 
 ## Task 2: Initializing...
-If this is your first time using Metasploit, you'll have just a few things to do before you utilize its full functionality. Let's go ahead and get everything started!
-___
+
 First things first, we need to initialize the database! Let's do that now with the command: `msfdb init`
 If you're using the AttackBox, you don't need to do this.
 > No Answer Needed
@@ -32,10 +27,8 @@ After Metasploit has started, let's go ahead and check that we've connected to t
 Cool! We've connected to the database, which type of database does Metasploit 5 use? 
 > postgresql
 
-
 ## Task 3: Rock 'em to the Core 
-Using the help menu, let's now learn the base commands and the module categories in Metasploit. Nearly all of the answers to the following questions can be found in the Metasploit help menu.
-___
+
 Let's go ahead and start exploring the help menu. On the Metasploit prompt (where we'll be at after we start Metasploit using msfconsole), type the command: `help`
 > No Answer Needed
 
@@ -76,8 +69,7 @@ Leaving a Metasploit console running isn't always convenient and it can be helpf
 > save
 
 ## Task 4: Modules for Every Occasion!
-Metasploit consists of six core modules that make up the bulk of the tools you will utilize within it. Let's take a quick look through the various modules, their purposes, and some of the commands associated with modules. 
-___
+
 Easily the most common module utilized, which module holds all of the exploit code we will use?
 > exploit
 
@@ -100,13 +92,7 @@ Not every module is loaded in by default, what command can we use to load differ
 > load
 
 ## Task 5: Move that shell!
-Remember that database we set up? In this step, we're going to take a look at what we can use it for and exploit our victim while we're at it!
 
-As you might have noticed, up until this point we haven't touched nmap in this room, let alone perform much recon on our victim box. That'll all change now as we'll take a swing at using nmap within Metasploit. Go ahead and deploy the box now, it may have up to a three-minute delay for starting up our target vulnerable service. 
-
-*Note, Metasploit does support different types of port scans from within the auxiliary modules. Metasploit can also import other scans from nmap and Nessus just to name a few.
-
-___
 Metasploit comes with a built-in way to run nmap and feed it's results directly into our database. Let's run that now by using the command `db_nmap -sV MACHINE_IP`
 > No Answer Needed
 
@@ -126,9 +112,6 @@ Now that we've scanned our victim system, let's try connecting to it with a Meta
 
 > exploit/windows/http/icecast_header
 
-While that use command with the unique string can be incredibly useful that's not quite the exploit we want here. Let's now run the command `search multi/handler`.
-Go ahead and run the command `use NUMBER_NEXT_TO  exploit/multi/handler` wherein the number will be what appears in that far left column (typically this will be 4 or 5). In this way, we can use our search results without typing out the full name/path of the module we want to use.
-___
 What is the name of the column on the far left side of the console that shows up next to 'Name'?
 > #
 
@@ -153,11 +136,8 @@ Once we've started this, we can check all of the jobs running on the system by r
 After we've established our connection in the next task, we can list all of our sessions using the command `sessions`. Similarly, we can interact with a target session using the command `sessions -i SESSION_NUMBER`
 > No Answer Needed
 
-
 ## Task 6: We're in, now what?
-Now that we've got a shell into our victim machine, let's take a look at several post-exploitation modules actions we can leverage! 
-Most of the questions in the following section can be answered by using the Meterpreter help menu which can be accessed through the 'help' command. This menu dynamically expands as we load more modules.
-___
+
 First things first, our initial shell/process typically isn't very stable. Let's go ahead and attempt to move to a different process. First, let's list the processes using the command `ps`. What's the name of the spool service?
 > spoolsv.exe
 
@@ -197,10 +177,8 @@ Finally, let's try forcing RDP to be available. This won't work since we aren't 
 One quick extra question, what command can we run in our meterpreter session to spawn a normal system shell?
 > shell
 
-
 ## Task 7: Makin' Cisco Proud
-Last but certainly not least, let's take a look at the autorouting options available to us in Metasploit. While our victim machine may not have multiple network interfaces (NICs), we'll walk through the motions of pivoting through our victim as if it did have access to extra networks.
-___
+
 Let's go ahead and run the command `run autoroute -h`, this will pull up the help menu for autoroute. What command do we run to add a route to the following subnet: 172.18.1.0/24? Use the `-n` flag in your answer.
 > run autoroute -s 172.18.1.0 -n 255.255.255.0
 
